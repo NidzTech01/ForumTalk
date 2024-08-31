@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+body::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+.video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: rgba(76, 175, 80, 0.8);
+    
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav{
+    list-style: none;
+}
+
+.nav li{
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.nav a{
+    transition: all 0.3s ease 0s;
+}
+.nav li a:hover{
+    color: 00880a9;
+
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgb(231, 237, 238);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: black;    
+}
+
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.content1{
+    text-align: center;
+    padding: auto;
+    font-family: "Montserrat";
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    position: relative;
+    z-index: 2;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.feature {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 200px;
+}
+
+.feature p{
+    margin-top: 20px;
+}
+
+.feature button{
+    margin-top: 20px;
+    display: inline;
+}
+
+.articles {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 2;
+    color: black;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+}
+
+.article {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.article img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.article h3 {
+    margin-top: 15px;
+}
+
+.article h2 {
+    margin-top: 500px;
+    padding-top: 100px;
+}
+
+.read-more {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.read-more:hover {
+    background-color: #45a049;
+}
+
+.footer {
+    background-color: rgba(76, 175, 80, 0.8);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    z-index: 2;
+}
+
+.event-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    position: relative;
+    padding: 50px 50px 50px 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+
+}
+
+.event-picture{
+    width: 325px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20PX;
+    
+
+}
+
+.event-container img{
+    width: 100%;
+    height: auto;
+}
+
+.showcase {
+    min-height: 400px;
+    background: url('forest.jpg') no-repeat 0 -400px;
+    text-align: center;
+    color: #fff;
+}
+.showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    color: #020300;
+}
+
+.showcase p {
+    font-size: 20px;
+    color: #000;
+}
+.content {
+    padding: 20px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+.content h2 {
+    text-align: center;
+}
+.content p {
+    line-height: 1.6;
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+
+ 
+
+
